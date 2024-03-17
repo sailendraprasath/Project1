@@ -19,14 +19,15 @@ const Wowww = () => {
   {/* <!-- The slideshow/carousel --> */}
   <div class="carousel-inner ">
     <div class="carousel-item active">
-      <img src=" https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600" alt="img3"  class="d-block w-full max-h-[500px] object-cover"/>
+      <img src=" src/assets/Carousel/Carousel1.png " alt="img3"  class="d-block w-[1500px] max-h-[500px] object-cover"/>
     </div>
     <div class="carousel-item">
-      <img src="Project1/src/assets/img2.jpg " alt="img2" class="d-block w-full max-h-[500px] object-cover" />
+      <img src="src/assets/Carousel/Carousel2.png  " alt="img2" class="d-block w-[1500px] max-h-[500px] object-cover" />
     </div>
     <div class="carousel-item">
-      <img src="Project1/src/assets/img1.jpg " alt="img1" class="d-block w-full max-h-[500px] object-cover" />
+      <img src="src/assets/Carousel/Carousel3.png  " alt="img1" class="d-block w-[1500px] max-h-[500px] object-cover" />
     </div>
+  
   </div>
   
   {/* <!-- Left and right controls/icons --> */}

@@ -2,121 +2,205 @@ export const data = [
 
     {
         id:1,
-        name:'Plain & masala dosa',
-        category:'burger',
-        image:" src/assets/dosa/dosa1.png",
-        originalPrice : 25,
+        name:'Normal Dosa',
+        category:'Dosa',
+        image:"src/assets/dosa/dosa1.png ",
+        originalPrice : '₹30',
         price:'$'
     },
     {
         id:2,
-        name:'double cheseburger',
-        category:'burger',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
-        originalPrice : 30,
+        name:'Set dosa',
+        category:'Dosa',
+        image:"src/assets/dosa/dosa2.png",
+        originalPrice : '₹30',
         price:'$'
     },
     {
         id:3,
-        name:'single cheseburger',
-        category:'burger',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:'Checken Biryani',
+        category:'Biryani',
+        image:"src/assets/Biriyani/Biryani1.png ",
+        originalPrice:'₹150',
         price:'$$'
     },
     {
         id:4,
-        name:'double cheseburger',
-        category:'pizza',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:'Ambur Biryani',
+        category:'Biryani',
+        image:"src/assets/Biriyani/Biryani4.png ",
+        originalPrice:'₹250',
         price:'$$$'
     },
     {
         id:5,
-        name:'double cheseburger',
-        category:'pizza',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:'Hyderabadi Biryani',
+        category:'Biryani',
+        image:"src/assets/Biriyani/Biryani2.png ",
+        originalPrice:'₹180',
         price:'$$'
     },
     {
         id:6,
-        name:'double cheseburger',
-        category:'pizza',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:'Awadhi Biryani',
+        category:'Biryani',
+        image:" src/assets/Biriyani/Biryani5.png",
+        originalPrice:'₹280',
         price:'$$$'
     },
     {
         id:7,
-        name:'double cheseburger',
-        category:'pizza',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:'checken fry Biryani',
+        category:'Biryani',
+        image:"src/assets/Biriyani/Biryani6.png ",
+        originalPrice:'₹350',
         price:'$$$$'
     },
     {
         id:8,
-        name:'double cheseburger',
-        category:'pizza',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:'Fish Biryani',
+        category:'Biryani',
+        image:"src/assets/Biriyani/Biryani7.png ",
+        originalPrice:'₹380',
         price:'$$$$'
     },
 
     {
         id:9,
-        name:'double cheseburger',
-        category:'pizza',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        name:'Chicken lollipop',
+        category:'chicken',
+        image:" src/assets/Chicken/chicken8.png",
+        originalPrice:'₹310',
         price:'$$$$'
     },
     {
         id:10,
-        name:'double cheseburger',
-        category:'burger',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
-        originalPrice : 40,
+        name:' Cheese dosa',
+        category:'Dosa',
+        image:"src/assets/dosa/dosa3.png",
+        originalPrice : '₹40',
         price:'$'
     },
     {
         id:11,
-        name:'double cheseburger',
+        name:'Chicken sandwich',
         category:'chicken',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        image:" src/assets/Chicken/chicken3.png",
+        originalPrice:'₹155',
         price:'$$'
     },
     {
         id:12,
-        name:'double cheseburger',
+        name:'chicken shawarma',
         category:'chicken',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        image:"src/assets/Chicken/chicken6.png ",
+        originalPrice:'₹265',
         price:'$$$'
     },
     {
         id:13,
-        name:'double cheseburger',
+        name:'Chiken Korma',
         category:'chicken',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        image:"src/assets/Chicken/chicken4.png",
+        originalPrice:'₹165',
         price:'$$'
     },
     {
         id:14,
-        name:'double cheseburger',
+        name:'Tandoori chicken',
         category:'chicken',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        image:" src/assets/Chicken/chicken5.png",
+        originalPrice:'₹210',
         price:'$$$'
     },
     {
         id:15,
-        name:'double cheseburger',
+        name:'Chicken Tikka',
         category:'chicken',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+        image:"src/assets/Chicken/chicken7.png ",
+        originalPrice:'₹335',
         price:'$$$$'
     },
     {
         id:16,
-        name:'double cheseburger',
-        category:'burger',
-        image:"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
-        originalPrice : 50,
+        name:' Ada dosa',
+        category:'Dosa',
+        image:" src/assets/dosa/dosa4.png",
+        originalPrice : '₹50',
         price:'$'
     },
+    {
+        id:17,
+        name:'Neer dosa',
+        category:'Dosa',
+        image:"src/assets/dosa/dosa5.png ",
+        originalPrice: '₹120',
+        price:'$$'
+    },
+    {
+        id:18,
+        name:'Egg dosa',
+        category:'Dosa',
+        image:"src/assets/dosa/dosa6.png",
+        originalPrice: '₹130',
+        price:'$$'
+    },
+    {
+        id:19,
+        name:'Oats dosa',
+        category:'Dosa',
+        image:"src/assets/dosa/dosa7.png",
+        originalPrice:'₹150',
+        price:'$$'
+    },
+    {
+        id:20,
+        name:'Veg Biryani',
+        category:'Biryani',
+        image:"src/assets/Biriyani/Biryani3.png",
+        originalPrice:"₹90",
+        price:'$'
+    },
+    {
+        id:21,
+        name:'Dum biryani',
+        category:'Biryani',
+        image:'src/assets/Biriyani/Biryani8.png',
+        originalPrice:'₹190',
+        price:'$$'
+    },
+    {
+        id:22,
+        name:'Plain Biryani',
+        category:'Biryani',
+        image:"src/assets/Biriyani/Biryani9.png",
+        originalPrice:'₹110',
+        price:'$$'
+    },
+    {
+        id:23,
+        name:'prawn Biryani',
+        category:'Biryani',
+        image:"src/assets/Biriyani/Biryani10.png ",
+        originalPrice:'₹390',
+        price:'$$$$'
+    },
+    {
+        id:24,
+        name:'Butter chicken',
+        category:'chicken',
+        image:"src/assets/Chicken/Chicken1.png ",
+        originalPrice:'₹85',
+        price:'$'
+    },
+    {
+        id:25,
+        name:'chicken curry',
+        category:'chicken',
+        image:"src/assets/Chicken/chicken2.png ",
+        originalPrice:'₹95',
+        price:'$'
+    }
 ];
 
 
