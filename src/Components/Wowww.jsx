@@ -1,6 +1,6 @@
 import React from "react";
 import carosel1 from "../assets/Carousel/Carousel1.png";
-import carosel3 from "../assets/Carousel/Carousel2.png";
+import carosel2 from "../assets/Carousel/Carousel2.png";
 import carosel3 from "../assets/Carousel/Carousel3.png";
 
 const Wowww = () => {

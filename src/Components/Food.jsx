@@ -106,11 +106,11 @@ const Food = () => {
         </div>
 
         {/* Display foods */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4 ">
           {foods.map((item, index) => (
             <div
               key={index}
-              className="border shadow-lg hover:scale-105 duration-300 bg-white"
+              className="border shadow-lg hover:scale-105 duration-300 bg-black/90 rounded-2xl"
             >
               <img
                 src={item.image}
@@ -118,7 +118,7 @@ const Food = () => {
                 className="w-full h-[200px] object-cover rounded-t-lg rounded-lg"
               />
               <div className="flex justify-between px-2 py-4">
-                <p className="font-bold font-my5">{item.name}</p>
+                <p className="font-bold font-my5 text-white">{item.name}</p>
                 <p>
                   <span className="bg-orange-500 text-white p-1 rounded-full px-2 font-my5">
                     {item.originalPrice}

@@ -10,8 +10,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { FaUserFriends, FaWallet } from "react-icons/fa";
 import { MdFavorite, MdHelp } from "react-icons/md";
 
-
-import {data} from '../data/data'
+import { data } from "../data/data";
 
 // const Food = () => {
 //     const [name,setName] = useState(data);
@@ -24,7 +23,6 @@ import {data} from '../data/data'
 //         );
 //     };
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [cart, setCart] = useState(false);
@@ -34,7 +32,10 @@ const Navbar = () => {
       <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 table-fixed">
         {/* left side */}
         <div className="flex items-center">
-          <div onClick={() => setNav(!nav)} className="cursor-pointer duration-700 rotate-180 scale-90 transition hover:scale-125 hover:-rotate-180  hover:duration-300">
+          <div
+            onClick={() => setNav(!nav)}
+            className="cursor-pointer duration-700 rotate-180 scale-90 transition hover:scale-125 hover:-rotate-180  hover:duration-300"
+          >
             <AiOutlineMenu size={30} />
           </div>
           <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
@@ -46,10 +47,6 @@ const Navbar = () => {
           </div>
         </div>
 
-
-
-
-
         {/* Search input */}
 
         <div className="bg-gray-200 flex rounded-full items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
@@ -60,12 +57,6 @@ const Navbar = () => {
             placeholder="Search Food"
           />
         </div>
-
-
-
-
-
-        
 
         {/* Cart button */}
 
@@ -149,7 +140,6 @@ const Navbar = () => {
               : "fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300"
           }
         >
-
           {/* Left Side Closer */}
           <AiOutlineClose
             onClick={() => setNav(!nav)}
@@ -161,7 +151,7 @@ const Navbar = () => {
           </h2>
           <nav>
             <ul className="flex flex-col p-4 text-gray-800">
-              <li className="text-xl py-4 flex border-2 border-black ">
+              <li className="text-xl py-4 flex ">
                 <TbTruckDelivery size={28} className="mr-4 " />
                 Orders
               </li>

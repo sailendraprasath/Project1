@@ -1,3 +1,4 @@
+//   Dosa
 import image1 from "../assets/dosa/dosa1.png";
 import image2 from "../assets/dosa/dosa2.png";
 import image3 from "../assets/dosa/dosa3.png";
@@ -5,6 +6,26 @@ import image4 from "../assets/dosa/dosa4.png";
 import image5 from "../assets/dosa/dosa5.png";
 import image6 from "../assets/dosa/dosa6.png";
 import image7 from "../assets/dosa/dosa7.png";
+//Biryani
+import Biryani1 from "../assets/Biriyani/Biryani1.png";
+import Biryani2 from "../assets/Biriyani/Biryani2.png";
+import Biryani3 from "../assets/Biriyani/Biryani3.png";
+import Biryani4 from "../assets/Biriyani/Biryani4.png";
+import Biryani5 from "../assets/Biriyani/Biryani5.png";
+import Biryani6 from "../assets/Biriyani/Biryani6.png";
+import Biryani7 from "../assets/Biriyani/Biryani7.png";
+import Biryani8 from "../assets/Biriyani/Biryani8.png";
+import Biryani9 from "../assets/Biriyani/Biryani9.png";
+import Biryani10 from "../assets/Biriyani/Biryani10.png";
+//Chicken
+import Chicken1 from "../assets/Chicken/Chicken1.png";
+import Chicken2 from "../assets/Chicken/chicken2.png";
+import Chicken3 from "../assets/Chicken/chicken3.png";
+import Chicken4 from "../assets/Chicken/chicken4.png";
+import Chicken5 from "../assets/Chicken/chicken5.png";
+import Chicken6 from "../assets/Chicken/chicken6.png";
+import Chicken7 from "../assets/Chicken/chicken7.png";
+import Chicken8 from "../assets/Chicken/chicken8.png";
 export const data = [
   {
     id: 1,
@@ -26,7 +47,7 @@ export const data = [
     id: 3,
     name: "Chicken Biryani",
     category: "Biryani",
-    image: "src/assets/Biriyani/Biryani1.png ",
+    image: Biryani1,
     originalPrice: "₹150",
     price: "$$",
   },
@@ -34,7 +55,7 @@ export const data = [
     id: 4,
     name: "Ambur Biryani",
     category: "Biryani",
-    image: "src/assets/Biriyani/Biryani4.png ",
+    image: Biryani4,
     originalPrice: "₹250",
     price: "$$$",
   },
@@ -42,7 +63,7 @@ export const data = [
     id: 5,
     name: "Hyderabadi Biryani",
     category: "Biryani",
-    image: "src/assets/Biriyani/Biryani2.png ",
+    image: Biryani2,
     originalPrice: "₹180",
     price: "$$",
   },
@@ -50,7 +71,7 @@ export const data = [
     id: 6,
     name: "Awadhi Biryani",
     category: "Biryani",
-    image: " src/assets/Biriyani/Biryani5.png",
+    image: Biryani5,
     originalPrice: "₹280",
     price: "$$$",
   },
@@ -58,7 +79,7 @@ export const data = [
     id: 7,
     name: "chicken fry Biryani",
     category: "Biryani",
-    image: "src/assets/Biriyani/Biryani6.png ",
+    image: Biryani6,
     originalPrice: "₹350",
     price: "$$$$",
   },
@@ -66,7 +87,7 @@ export const data = [
     id: 8,
     name: "Fish Biryani",
     category: "Biryani",
-    image: "src/assets/Biriyani/Biryani7.png ",
+    image: Biryani7,
     originalPrice: "₹380",
     price: "$$$$",
   },
@@ -75,7 +96,7 @@ export const data = [
     id: 9,
     name: "Chicken lollipop",
     category: "chicken",
-    image: " src/assets/Chicken/chicken8.png",
+    image: Chicken8,
     originalPrice: "₹310",
     price: "$$$$",
   },
@@ -91,7 +112,7 @@ export const data = [
     id: 11,
     name: "Chicken sandwich",
     category: "chicken",
-    image: " src/assets/Chicken/chicken3.png",
+    image: Chicken3,
     originalPrice: "₹155",
     price: "$$",
   },
@@ -99,7 +120,7 @@ export const data = [
     id: 12,
     name: "chicken shawarma",
     category: "chicken",
-    image: "src/assets/Chicken/chicken6.png ",
+    image: Chicken6,
     originalPrice: "₹265",
     price: "$$$",
   },
@@ -107,7 +128,7 @@ export const data = [
     id: 13,
     name: "Chicken Korma",
     category: "chicken",
-    image: "src/assets/Chicken/chicken4.png",
+    image: Chicken4,
     originalPrice: "₹165",
     price: "$$",
   },
@@ -115,7 +136,7 @@ export const data = [
     id: 14,
     name: "Tandoori chicken",
     category: "chicken",
-    image: " src/assets/Chicken/chicken5.png",
+    image: Chicken5,
     originalPrice: "₹210",
     price: "$$$",
   },
@@ -123,7 +144,7 @@ export const data = [
     id: 15,
     name: "Chicken Tikka",
     category: "chicken",
-    image: "src/assets/Chicken/chicken7.png ",
+    image: Chicken7,
     originalPrice: "₹335",
     price: "$$$$",
   },
@@ -163,7 +184,7 @@ export const data = [
     id: 20,
     name: "Veg Biryani",
     category: "Biryani",
-    image: "src/assets/Biriyani/Biryani3.png",
+    image: Biryani3,
     originalPrice: "₹90",
     price: "$",
   },
@@ -171,7 +192,7 @@ export const data = [
     id: 21,
     name: "Dum biryani",
     category: "Biryani",
-    image: "src/assets/Biriyani/Biryani8.png",
+    image: Biryani8,
     originalPrice: "₹190",
     price: "$$",
   },
@@ -179,7 +200,7 @@ export const data = [
     id: 22,
     name: "Plain Biryani",
     category: "Biryani",
-    image: "src/assets/Biriyani/Biryani9.png",
+    image: Biryani9,
     originalPrice: "₹110",
     price: "$$",
   },
@@ -187,7 +208,7 @@ export const data = [
     id: 23,
     name: "prawn Biryani",
     category: "Biryani",
-    image: "src/assets/Biriyani/Biryani10.png ",
+    image: Biryani10,
     originalPrice: "₹390",
     price: "$$$$",
   },
@@ -195,7 +216,7 @@ export const data = [
     id: 24,
     name: "Butter chicken",
     category: "chicken",
-    image: "src/assets/Chicken/Chicken1.png ",
+    image: Chicken1,
     originalPrice: "₹85",
     price: "$",
   },
@@ -203,7 +224,7 @@ export const data = [
     id: 25,
     name: "chicken curry",
     category: "chicken",
-    image: "src/assets/Chicken/chicken2.png ",
+    image: Chicken2,
     originalPrice: "₹95",
     price: "$",
   },
