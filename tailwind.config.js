@@ -15,6 +15,7 @@ const Myclass = plugin(function({addUtilities}){
     ".backface-hidden":{
       backfaceVisibility:"hidden",
     },
+   
   });
 });
 
@@ -30,6 +31,9 @@ module.exports = {
         My1:['Honk', 'system-ui', 'auto'],
         My2:['Young Serif', 'serif'],
         My3:['Protest Riot','sans-serif'],
+        My4:['Permanent Marker', 'cursive'],
+        my5:["Sansita Swashed", 'system-ui'],
+        my6:["Black Ops One", 'system-ui']
 
       }
     },

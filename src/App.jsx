@@ -13,7 +13,7 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <>
-    <div className="">
+    <div className="bg-slate-900/40">
     <Navbar/>
      <Wowww/>
      {/* <Hero/> */}

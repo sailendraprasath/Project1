@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 table-fixed">
         {/* left side */}
         <div className="flex items-center">
-          <div onClick={() => setNav(!nav)} className="cursor-pointer">
+          <div onClick={() => setNav(!nav)} className="cursor-pointer duration-700 rotate-180 scale-90 transition hover:scale-125 hover:-rotate-180  hover:duration-300">
             <AiOutlineMenu size={30} />
           </div>
           <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
@@ -102,7 +102,7 @@ const Navbar = () => {
           </h2>
           <nav>
             <ul className="flex flex-col p-4 text-gray-800">
-              <li className="text-xl py-4 flex">
+              <li className="text-xl py-4 flex ">
                 <TbTruckDelivery size={28} className="mr-4" />
                 Orders
               </li>
@@ -149,18 +149,20 @@ const Navbar = () => {
               : "fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300"
           }
         >
+
+          {/* Left Side Closer */}
           <AiOutlineClose
             onClick={() => setNav(!nav)}
             size={30}
-            className="absolute right-4 top-4 cursor-pointer "
+            className="absolute right-6 top-7  cursor-pointer duration-500 rotate-180 scale-90 transition hover:scale-125 hover:-rotate-180  hover:duration-500 "
           />
           <h2 className="text-2xl p-4">
             Best <span className="font-bold">Eats</span>
           </h2>
           <nav>
             <ul className="flex flex-col p-4 text-gray-800">
-              <li className="text-xl py-4 flex">
-                <TbTruckDelivery size={28} className="mr-4" />
+              <li className="text-xl py-4 flex border-2 border-black ">
+                <TbTruckDelivery size={28} className="mr-4 " />
                 Orders
               </li>
               <li className="text-xl py-4 flex">
