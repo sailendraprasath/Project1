@@ -1,4 +1,10 @@
 import image1 from "../assets/dosa/dosa1.png";
+import image2 from "../assets/dosa/dosa2.png";
+import image3 from "../assets/dosa/dosa3.png";
+import image4 from "../assets/dosa/dosa4.png";
+import image5 from "../assets/dosa/dosa5.png";
+import image6 from "../assets/dosa/dosa6.png";
+import image7 from "../assets/dosa/dosa7.png";
 export const data = [
   {
     id: 1,
@@ -12,7 +18,7 @@ export const data = [
     id: 2,
     name: "Set dosa",
     category: "Dosa",
-    image: "src/assets/dosa/dosa2.png",
+    image: image2,
     originalPrice: "₹30",
     price: "$",
   },
@@ -77,7 +83,7 @@ export const data = [
     id: 10,
     name: " Cheese dosa",
     category: "Dosa",
-    image: "src/assets/dosa/dosa3.png",
+    image: image3,
     originalPrice: "₹40",
     price: "$",
   },
@@ -125,7 +131,7 @@ export const data = [
     id: 16,
     name: " Ada dosa",
     category: "Dosa",
-    image: " src/assets/dosa/dosa4.png",
+    image: image4,
     originalPrice: "₹50",
     price: "$",
   },
@@ -133,7 +139,7 @@ export const data = [
     id: 17,
     name: "Neer dosa",
     category: "Dosa",
-    image: "src/assets/dosa/dosa5.png ",
+    image: image5,
     originalPrice: "₹120",
     price: "$$",
   },
@@ -141,7 +147,7 @@ export const data = [
     id: 18,
     name: "Egg dosa",
     category: "Dosa",
-    image: "src/assets/dosa/dosa6.png",
+    image: image6,
     originalPrice: "₹130",
     price: "$$",
   },
@@ -149,7 +155,7 @@ export const data = [
     id: 19,
     name: "Oats dosa",
     category: "Dosa",
-    image: "src/assets/dosa/dosa7.png",
+    image: image7,
     originalPrice: "₹150",
     price: "$$",
   },
