@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   AiFillTag,
   AiOutlineClose,
@@ -10,7 +10,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { FaUserFriends, FaWallet } from "react-icons/fa";
 import { MdFavorite, MdHelp } from "react-icons/md";
 
-import { data } from "../data/data";
+// import { data } from "../data/data";
 
 // const Food = () => {
 //     const [name,setName] = useState(data);
@@ -39,7 +39,7 @@ const Navbar = () => {
             <AiOutlineMenu size={30} />
           </div>
           <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-            Best<span className="font-bold">Eats</span>
+            YumYum<span className="font-bold">Hub</span>
           </h1>
           <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
             <p className="bg-black text-white rounded-full p-2">Delivery</p>
@@ -147,7 +147,7 @@ const Navbar = () => {
             className="absolute right-6 top-7  cursor-pointer duration-500 rotate-180 scale-90 transition hover:scale-125 hover:-rotate-180  hover:duration-500 "
           />
           <h2 className="text-2xl p-4">
-            Best <span className="font-bold">Eats</span>
+            YumYum<span className="font-bold">Hub</span>
           </h2>
           <nav>
             <ul className="flex flex-col p-4 text-gray-800">
